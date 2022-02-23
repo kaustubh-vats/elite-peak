@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/kaustubh-vats/elite-peach/main/ui/ui.png" width="100%" alt="UI Image">
+<img src="https://raw.githubusercontent.com/kaustubh-vats/elite-peak/main/ui/ui.png" width="100%" alt="UI Image">
 
 # Elite Peak
 A PHP and MYSQL website for Hotel room booking with nice interface.

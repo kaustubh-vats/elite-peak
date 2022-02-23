@@ -17,3 +17,7 @@ A PHP and MYSQL website for Hotel room booking with nice interface.
 + Run Apache and MySQL in your XAMPP control Panel.
 + When you are running first time in your machine please run ```localhost/elite-peak/initialize-db.php``` to create and initialize database.
 + Run ```localhost/elite-peak/``` in your browser.
+
+# Demo
+
+<img src="ui/demo.gif" width="100%" alt="UI Image">

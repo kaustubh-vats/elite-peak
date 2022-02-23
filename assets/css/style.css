@@ -1,0 +1,317 @@
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+.carousel-caption h5{
+    font-size: 3.25rem;
+}
+.carousel-caption p{
+    font-weight: 200;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.carousel-item{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rooms-title-container, .about-title-container{
+    padding-bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rooms_container{
+    background-color: #F8F9FA;
+    padding: 70px 0px;
+}
+.card{
+    margin: none;
+    max-width: 350px;
+}
+.img-container{
+    overflow: hidden;
+
+}
+.img-container img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: .5s;
+}
+.img-container img:hover{
+    transform: scale(1.1);
+}
+.card-deck{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,350px));
+    gap: 20px;
+    padding: 0px 70px;
+    justify-content: center;
+}
+.aboutus_container{
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aboutus_text_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    flex: 1;
+}
+.aboutus_imgs_container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.about_us_relative{
+    width: 70%;
+    position: relative;
+}
+.aboutus_img1{
+    width: 100%;
+}
+.aboutus_img2{
+    width: 45%;
+    border: 10px solid white;
+    position: absolute;
+    bottom: -50px;
+    right: -70px;
+}
+.heading{
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 15%;
+    height: 3px;
+    background-color: #000;
+    width: 70%;
+    border-radius: 50px;
+}
+.about-title-container{
+    align-items: flex-start;
+    padding-bottom: 0px;
+    padding: auto;
+}
+.about_content{
+    max-width: 70%;
+}
+.aboutus_underline{
+    position: absolute;
+    left: 0px;   
+}
+.about_us_heading::after{
+    left: 0;
+    width: 90%;
+}
+.btn-primary{
+    background-color: #f23a2e;
+    outline: none;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #d23a2e;
+}
+.offer_container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0px;
+    background: url(/assets/images/summer.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 300px;
+    font-family: 'Playfair Display', serif;
+}
+.offer_container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.promo_code_container, .countdown_container{
+    z-index: 1;
+}
+.button_transparent{
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    border: #eec60a solid 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button_transparent:hover{
+    background-color: #eec60a;
+}
+.count_down_container{
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+.countdown_title{
+    text-transform: uppercase;
+}
+.service_container{
+    padding: 70px 0px;
+}
+.gallery{
+    padding: 70px 0px;
+}
+.service_grid{
+    display: grid;
+    padding: 0px 70px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+}
+.gallery_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    padding: 70px 70px 0px 70px;
+}
+.gallery_img{
+    width: 300px;
+    object-fit: cover;
+    cursor: -webkit-zoom-in;
+}
+.container_footer_about p{
+    color:rgba(255, 255, 255, 0.3);
+}
+.footer_h2{
+    font-size: 20px;
+}
+.contact-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+footer{
+    background-color: #333333;
+    padding: 70px;
+    color: white;
+}
+.footer_flex{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+    align-items: center;
+}
+.quick_menu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_list{
+    list-style: none;
+    padding: 0px;
+}
+.footer_list a{
+    text-decoration: none;
+    color: rgba(255,255,255,.3);
+    text-align: center;
+}
+.container_footer_about{
+    padding: 0px 10px;
+    flex: 1;
+}
+.footer_copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: rgba(255,255,255,.3);
+    padding-top: 30px;
+}
+.footer_copy p{
+    margin: 0;
+    padding: 0;
+}
+.footer_copy p a{
+    text-decoration: none;
+    color: rgba(255,255,255,.3);
+}
+.footer_copy p a:hover{
+    text-decoration: underline;
+}
+.footer_list a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 870px){
+    .aboutus_container{
+        flex-direction: column;
+    }
+    .offer_container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .promo_code_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .countdown_title{
+        width: 100%;
+        text-align: center;
+    }
+    .aboutus_text_container{
+        width: 70%;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 650px){
+    .aboutus_text_container{
+        width: 90%;
+        align-items: center;
+    }
+    .about_content{
+        max-width: 90%;
+    }
+    .aboutus_imgs_container{
+        padding: 50px 20px;
+    }
+    .about_us_relative{
+        width: 80%;
+    }
+    .aboutus_img1{
+        width: 90%;
+    }
+    .aboutus_img2{
+        left: 50%;
+        bottom: -50px;
+        transform: translateX(-50%);
+    }
+}

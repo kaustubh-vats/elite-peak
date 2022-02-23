@@ -26,7 +26,7 @@ include 'base.php';
 include 'header.php';
 ?>
 <div class="container">
-    <img src="/Hotel/assets/images/phone.jpg" class="contact-img">
+    <img src="/elite-peak/assets/images/phone.jpg" class="contact-img">
 </div>
 <div class="container mt-5 mb-5 px-4">
 <form method="POST" action="index.php">

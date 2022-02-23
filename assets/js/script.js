@@ -44,7 +44,7 @@ window.addEventListener('scroll',function (){
 document.addEventListener('DOMContentLoaded',function (){
     var x = document.querySelectorAll('.carousel-item');
     for(let i=0;i<x.length;i++){
-        x[i].style.background = 'url(/assets/images/'+(i+1)+'.jpg)';
+        x[i].style.background = 'url(/elite-peak/assets/images/'+(i+1)+'.jpg)';
         x[i].style.backgroundSize = 'cover';
     }
     const days_c = document.querySelector('.days');
@@ -111,7 +111,7 @@ const navSlide = () =>{
 }
 function enlarge(params){
     let src = params.getAttribute('src');
-    window.open('/show-img?q='+src, '_blank');
+    window.open('/elite-peak/show-img?q='+src, '_blank');
 }
 function copyToClip(params){
     var copyText = 'SUMMER50';

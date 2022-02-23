@@ -85,7 +85,7 @@ if(isset($_POST['name'])){
 }
 ?>
 <div class="container">
-    <img src="/assets/images/5.jpg" class="contact-img">
+    <img src="/elite-peak/assets/images/5.jpg" class="contact-img">
 </div>
 <div class="container mt-5 mb-5 px-4">
   <div>

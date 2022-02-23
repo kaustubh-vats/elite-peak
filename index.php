@@ -114,8 +114,8 @@ include 'header.php';
 <div class="aboutus_container" id="about">
   <div class="aboutus_imgs_container">
     <div class="about_us_relative">
-      <img src = "/assets/images/4.jpg" class="aboutus_img1" alt="...">
-      <img src = "/assets/images/5.jpg" class="aboutus_img2" alt="...">
+      <img src = "/elite-peak/assets/images/4.jpg" class="aboutus_img1" alt="...">
+      <img src = "/elite-peak/assets/images/5.jpg" class="aboutus_img2" alt="...">
     </div>
   </div>
   <div class="aboutus_text_container">
@@ -218,14 +218,14 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
   <div class="rooms-title-container">
     <h1 class="heading">Our Gallery</h1>
     <div class="gallery_grid">
-      <div><img src="/assets/images/1.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/2.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/3.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/4.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/5.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/6.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/7.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
-      <div><img src="/assets/images/8.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/1.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/2.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/3.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/4.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/5.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/6.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/7.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
+      <div><img src="/elite-peak/assets/images/8.jpg" alt="Gallery Image" class="gallery_img" onclick="enlarge(this)"></div>
     </div>
   </div>
 </div>

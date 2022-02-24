@@ -25,11 +25,11 @@
                 Social
             </h2>
             <ul class="footer_list">
-                <a href="#"><li>Instagram</li></a>
-                <a href="#"><li>Facebook</li></a>
-                <a href="#"><li>WhatsApp</li></a>
-                <a href="#"><li>Youtube</li></a>
-                <a href="#"><li>Twitter</li></a>
+            <a href="https://www.instagram.com/curioustubh/" target="_blank"><li>Instagram</li></a>
+                <a href="https://www.facebook.com/kaustubh.vats.5" target="_bank"><li>Facebook</li></a>
+                <a href="https://wa.me/919258712650?text=Hello%20Kaustubh%20I%20have%20seen%20your%20Hotel%20website" target="_bank"><li>WhatsApp</li></a>
+                <a href="https://www.youtube.com/channel/UCWMlVcKGBht1jfp-nkTMTjA" target="_bank"><li>Youtube</li></a>
+                <a href="https://twitter.com/iamkaustubhvats" target="_bank"><li>Twitter</li></a>
             </ul>
         </div>
     </div>

@@ -16,7 +16,7 @@ include 'header.php';
       <div class="shadow"></div>
       <div class="carousel-caption d-none d-md-block">
         <h5>Welcome to Elite Peak</h5>
-        <p>We serve you the best in Madhya Pradesh.</p>
+        <p>We serve you the best in Uttar Pradesh.</p>
       </div>
     </div>
     <div class="carousel-item">
